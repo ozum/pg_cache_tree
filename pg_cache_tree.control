@@ -1,0 +1,4 @@
+# pg_cache_tree extension
+comment = 'A short description'
+default_version = '1.0.0'
+relocatable = true

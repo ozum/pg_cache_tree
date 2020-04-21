@@ -1,0 +1,40 @@
+{
+    "name": "pg_cache_tree",
+    "abstract": "PostgreSQL trigger to cache recursive parents and children of a record in an array field.",
+    "description": "This is a PostgreSQL extension which adds a trigger, and related support and utility functions to store and update recursive parent-child list.",
+    "version": "1.0.0",
+    "maintainer": "Özüm Eldoğan",
+    "license": "mit",
+    "provides": {
+        "pg_cache_tree": {
+            "abstract": "PostgreSQL trigger to cache recursive parents and children of a record in an array field.",
+            "file": "sql/pg_cache_tree.sql",
+            "docfile": "doc/pg_cache_tree.md",
+            "version": "1.0.0"
+        }
+    },
+    "release_status": "stable",
+
+    "generated_by": "Özüm Eldoğan",
+    "resources": {
+        "bugtracker": {
+            "web": "https://github.com/ozum/pg_cache_tree/issues"
+        },
+        "repository": {
+            "url":  "https://github.com/ozum/pg_cache_tree.git",
+            "web":  "https://github.com/ozum/pg_cache_tree",
+            "type": "git"
+        }
+    },
+
+    "meta-spec": {
+        "version": "1.0.0",
+        "url": "http://pgxn.org/meta/spec.txt"
+    },
+    "tags": [
+        "cache",
+        "parent",
+        "children",
+        "tree"
+    ]
+}
